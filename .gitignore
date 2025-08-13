@@ -1,0 +1,15 @@
+# Composer
+/vendor/
+composer.lock
+
+# WordPress core y uploads (no subir contenido dinámico)
+*.log
+*.tmp
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Node / Vite (cuando lo usemos)
+node_modules/
+dist/
