@@ -1,6 +1,7 @@
+import './admin.css';
+
 (function ($) {
     $(function () {
-        // Placeholder para lógica del admin (subidas, listado, etc.).
-        // console.log('MPT admin listo', MPT_ADMIN);
+        console.log('JS del admin de Mi Plugin Tablas cargado ✅', typeof MPT_ADMIN !== 'undefined' ? MPT_ADMIN : {});
     });
 })(jQuery);
